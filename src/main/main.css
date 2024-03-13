@@ -1,0 +1,37 @@
+main{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    transform: translate(5%, 30%);
+    max-width: 1440px;
+    margin-top: 2%;
+}
+
+h1{
+    font-size: 1rem;
+    color: #625F5F;
+    text-transform:uppercase;
+    align-items: center;
+}
+  
+.slide_img{
+    text-align: center;
+    
+}
+
+.slide_img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #E7D1C9;
+  }
+  
+  div.swiper-button-prev,
+  div.swiper-button-next {
+    color: #F1E7DD;
+    border-radius: 50px;
+    width: 30px;
+    height: 60px;
+    background-color: #D0B49F;
+  }

@@ -1,0 +1,53 @@
+.promocao{
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+    gap: 20%;
+    align-items: center;
+}
+
+.promo1{   
+    width: 50%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.promo1 img{
+    width: 180%;   
+}
+
+.promo2 img{
+    width: 100%;   
+    cursor: pointer;
+}
+
+.conteiner{
+    padding: 100px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.categoria{
+    display: flex;
+    gap: 20%;
+}
+
+.title{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.promocao-img{
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+
+.promocao-img img{
+    width: 680px;
+    height: 500px;
+
+}

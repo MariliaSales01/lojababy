@@ -2,7 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Header from './header/header';
+import Footer from './footer/footer';
 import Slide from './main/slider'
+import Main from './main/main'
+import Promo from './main/promoção'
+import Categoria from './main/categoria'
 import reportWebVitals from './reportWebVitals';
 
 import {register} from 'swiper/element/bundle'
@@ -17,6 +21,10 @@ root.render(
   <React.StrictMode>
     <Header />
     <Slide />
+    <Main />
+    <Promo />
+    <Categoria/>
+    <Footer/>
   </React.StrictMode>
 );
 

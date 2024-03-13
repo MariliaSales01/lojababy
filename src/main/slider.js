@@ -1,7 +1,7 @@
 import {Swiper, SwiperSlide} from 'swiper/react'
 import './slider.css';
 
-import imagem1 from '../img/bed-1839564_640.jpg'
+import imagem1 from '../img/Para seu pequeno.png'
 import imagem2 from '../img/baby2.jpg'
 import imagem3 from '../img/baby3.jpg'
 import imagem4 from '../img/baby4.jpg'
@@ -18,14 +18,14 @@ export default function slider(){
     ]
     
     return (
-        <main >
+        <>
             <div className='container'>
             
             <Swiper
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 3500,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -36,7 +36,7 @@ export default function slider(){
       >
 
         {img.map ((item)=>(
-       <SwiperSlide key={item.id}>
+       <SwiperSlide className='slider-baby' key={item.id}>
         <img
             src={item.image}
             className='slide-item'
@@ -46,6 +46,6 @@ export default function slider(){
         </Swiper>
 
             </div>
-        </main>
+        </>
     )
 }

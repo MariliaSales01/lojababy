@@ -1,0 +1,40 @@
+.conteiner{
+    padding: 100px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: -10%;
+}
+.categoria{
+    display: flex;
+    gap: 20%;
+}
+
+.title{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.promocao-img{
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    cursor: pointer;
+}
+
+.promocao-img img{
+    width: 600px;
+    height: 400px;
+}
+
+.sugestao{
+    margin-top: 10%;
+}
+
+.promo3 img,
+.promo4 img{
+    width: 100%;
+}

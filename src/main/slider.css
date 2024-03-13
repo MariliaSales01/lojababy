@@ -1,4 +1,3 @@
-
 .container{
     max-width: 1440px;
     width: 100%;
@@ -13,4 +12,18 @@
 
 img{
     border-radius: 25px;
+}
+
+div .swiper-pagination-bullet{
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+    opacity: 1;
+}
+
+div .swiper-pagination-bullet:hover{
+    background-color: #625F5F;
+    opacity: 1;
+    width: 20px;
+    height: 20px;
 }
